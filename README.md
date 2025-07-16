@@ -8,7 +8,7 @@ This project introduces a novel approach to **reward shaping** in **Reinforcemen
 
 ## 📌 Overview
 
-Traditional RL environments often suffer from sparse and binary reward signals. This project presents a **Potential-Based Reward Shaping (PBRS)** algorithm that uses **Neural Tensor Networks** to learn transition dependencies and provide a more informative reward structure.
+Traditional RL environments often suffer from sparse and binary reward signals. This project presents a **Potential-Based Reward Shaping (PBRS)** algorithm that uses **Neural Tensor Networks** to learn transition dependencies and provide a more informative reward structure. The **NTN** models the relationship between current and potential future states. It helps refine the PBRS function by predicting the quality of transition states more accurately than conventional reward estimators.
 
 We compare this approach against:
 - Sparse reward baseline
@@ -86,11 +86,11 @@ Comparative evaluation on:
 
 ---
 
-## 🧠 Neural Tensor Network
+## Conclusion:
 
-The **NTN** models the relationship between current and potential future states. It helps refine the PBRS function by predicting the quality of transition states more accurately than conventional reward estimators.
-
-> Reference: Socher et al., *Reasoning with Neural Tensor Networks for Knowledge Base Completion* (2013)
+- The Potential-Based Reward Shaping NTN produces similar learning behavior to GCN. It’s because both deal with similar time complexity and
+ computational power.
+- As a result, the predicted output of NTN requires more time to generate, which eventually reduces its frame rate (FPS) and slows down performance.
 
 ---
 
