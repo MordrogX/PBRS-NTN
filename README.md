@@ -80,7 +80,8 @@ Comparative evaluation on:
 - Convergence rate
 
 <p align="center">
-  <img src="assets/reward_comparison_ntn_vs_gcn.png" width="70%" />
+  <img src="assets/Sparsed_vs_Shaped.png" width="70%" />
+  <img src="assets/gcn_vs_ntn.png" width="70%" />
 </p>
 
 ---
@@ -124,8 +125,8 @@ PBRS-NTN/
 **Mukesh Meena**  
 B.Tech, Computer Science & Engineering  
 [Indian Institute of Technology Indore](https://www.iiti.ac.in)  
-🔗 [LinkedIn](https://www.linkedin.com/in/mukesh-meena/)  
-📧 [Email](mailto:mukeshmeena.cse@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/mukesh-meena/)  
+[Email](mailto:mukesh.to1to@gmail.com)
 
 ---
 
